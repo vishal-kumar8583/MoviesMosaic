@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: "MoviesMosaic"
+    env: python
+    buildCommand: |
+      pip install -r requirements.txt
+      python manage.py collectstatic --no-input
+      python manage.py migrate
+    startCommand: gunicorn MoviesMosaic.wsgi:application
+    envVars:
+      - key: DJANGO_SECRET_KEY
+        value: "django-insecure-yq1q)s+4d*(xql$7q_7_#w3%ii1+&kv+zlxrv982s#c28s0+(@"
+      - key: DEBUG
+        value: false
+      - key: ALLOWED_HOSTS
+        value: "MoviesMosaic.onrender.com"
