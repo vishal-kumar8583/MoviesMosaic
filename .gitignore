@@ -1,0 +1,9 @@
+_pycache_/
+*.pyc
+db.sqlite3
+venv/
+.env
+/migrations/.pyc
+/migrations/.py
+.DS_Store
+Thumbs.db
