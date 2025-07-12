@@ -3,14 +3,29 @@ services:
     name: "MoviesMosaic"
     env: python
     buildCommand: |
+
+      echo "📦 Installing packages..."
       pip install -r requirements.txt
+
+      echo "📋 Checking migrations..."
+      python manage.py showmigrations
+
+      echo "🧱 Applying migrations..."
+      python manage.py migrate --noinput --verbosity 3
+
+      echo "🎨 Collecting static files..."
       python manage.py collectstatic --no-input
-      python manage.py migrate
+
     startCommand: gunicorn MoviesMosaic.wsgi:application
     envVars:
+      - key: DATABASE_URL
+        value: "sqlite:///db.sqlite3"
       - key: DJANGO_SECRET_KEY
-        value: "django-insecure-yq1q)s+4d*(xql$7q_7_#w3%ii1+&kv+zlxrv982s#c28s0+(@"
+        value: "your-actual-50-char-secret-key"
       - key: DEBUG
         value: false
       - key: ALLOWED_HOSTS
-        value: "MoviesMosaic.onrender.com"
+        value: "moviemosaic-1340.onrender.com"
+
+
+
