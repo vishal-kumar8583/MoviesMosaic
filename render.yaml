@@ -25,7 +25,7 @@ services:
       - key: DEBUG
         value: false
       - key: ALLOWED_HOSTS
-        value: "moviemosaic.onrender.com"
+        value: "moviesmosaic00.onrender.com"
 
 
 
