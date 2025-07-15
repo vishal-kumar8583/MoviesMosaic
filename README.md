@@ -1,7 +1,7 @@
 ﻿# 🍿🎬 MovieMosaic - 
 > **https://moviesmosaic-43jp.onrender.com/**
 
-![MovieMosaic Banner]()
+![MovieMosaic Banner]("C:\Users\YOGA\Desktop\MoviesMosaic\Home.png")
 
 > *A cinematic experience for movie lovers!*  
 > Discover trending films, share your opinions, and keep your watchlist organized — all in one place.
