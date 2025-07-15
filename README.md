@@ -68,10 +68,3 @@ This project is licensed under the *MIT License*.
 ---
 
 🎬 Built by a movie lover, for movie lovers.
-
-
-
-
-```bash
-git clone https://github.com/vishal-kumar8583/MoviesMosaic.git
-cd MoviesMosaic
