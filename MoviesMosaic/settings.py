@@ -14,7 +14,7 @@ load_dotenv(BASE_DIR / ".env")
 
 SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY", "unsafe-dev-key")
 DEBUG = os.environ.get("DEBUG", "True") == "True"
-ALLOWED_HOSTS = ['moviesmosaic00.onrender.com', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['moviesmosaic-43jp.onrender.com', '127.0.0.1', 'localhost']
 TMDB_API_KEY = os.environ.get("TMDB_API_KEY", "dummy-api-key")
 
 INSTALLED_APPS = [
