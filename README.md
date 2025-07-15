@@ -1,7 +1,7 @@
 ﻿# 🍿🎬 MovieMosaic - 
 > **https://moviesmosaic-43jp.onrender.com/**
 
-![MovieMosaic Banner]()
+![MovieMosaic Banner](https://github.com/vishal-kumar8583/MoviesMosaic/blob/main/Home.png)
 
 > *A cinematic experience for movie lovers!*  
 > Discover trending films, share your opinions, and keep your watchlist organized — all in one place.
