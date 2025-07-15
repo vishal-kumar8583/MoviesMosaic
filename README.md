@@ -1,25 +1,70 @@
-A Django web application for discovering, reviewing, and organizing movies using the TMDB API. Users can search for movies, create playlists, write and save reviews, and manage their favorite films—all in one place.
+﻿# 🍿🎬 MovieMosaic - 
+> **https://moviesmosaic-43jp.onrender.com/**
 
-Features :- 
-User Authentication: Sign up, log in, and log out securely.
-Movie Discovery: Browse popular and now-playing movies from TMDB, or search by title.
-Playlists: Create and manage personal movie playlists.
-Reviews: Write, submit, and save reviews for movies.
-Save Reviews: Save your favorite reviews for quick access.
-Responsive UI: User-friendly interface for seamless navigation.
+![MovieMosaic Banner]()
 
+> *A cinematic experience for movie lovers!*  
+> Discover trending films, share your opinions, and keep your watchlist organized — all in one place.
 
-Data Models :- 
-UserProfile: Extends Django’s User model.
-Movie: Stores movie details from TMDB.
-Playlist: User-created playlists containing movies.
-Review: User reviews for movies (one per user per movie).
-SavedReview: Users can save reviews for later.
-UserMoviePlaylist: Tracks which movies users have added to their playlists.
+---
 
-Getting Started :-
+## 🌟 About the Project
 
-Prerequisites
-Python 3.10+
-pip
+*MovieMosaic* is a web-based platform crafted for movie enthusiasts to:
 
+- 🎥 Discover movies across genres
+- 📈 Explore trending & top-rated titles
+- 🧾 View real user ratings and reviews
+- 🗣 Share opinions by writing reviews and giving ratings
+- 🧑‍💻 Create an account and personalize your experience
+- 🔐 Login to access features like playlists and review history
+- 💾 Save movies to your *personal playlist* for later
+- 🕵 Revisit your *past reviews* anytime
+
+---
+
+## 🛠 Tech Stack
+
+| Layer        | Technology                 |
+| ------------ | -------------------------- |
+| 🎯 Framework | Django (Python)            |
+| 🧠 Backend   | Python, SQLite3            |
+| 🎨 Frontend  | HTML, CSS                  |
+| 🛢 Database  | SQLite (default Django DB) |
+
+---
+
+## 🎯 Core Features
+
+- 🔍 *Explore Popular, Trending & Top-Rated Movies*  
+  Stay updated with the latest buzz from the movie world.
+
+- 📝 *User Reviews & Ratings*  
+  Let your voice be heard! Rate movies and share your thoughts.
+
+- 🧑‍💼 *User Accounts*  
+  Sign up or log in to unlock powerful features like playlist and personal reviews.
+
+- 💾 *Add to Playlist*  
+  Save movies to your personal watchlist for later viewing.
+
+- 🕓 *Review History*  
+  Revisit and reflect on the movies you’ve reviewed in the past.
+
+---
+
+## 🤝 Want to Contribute?
+
+> Coming soon — Community contribution guidelines.
+
+---
+
+## 📜 License & Copyright
+
+© 2025 Vishal Kumar  
+All rights reserved.  
+This project is licensed under the *MIT License*.
+
+---
+
+🎬 Built by a movie lover, for movie lovers.
